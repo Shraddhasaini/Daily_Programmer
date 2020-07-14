@@ -9,5 +9,4 @@ mydict = {
             'key1' : 1111111,
 }
 
-print('ascending: '+ str(sorted(mydict.values())))
-#print(sorted(mydict.values()(reverse='true'))
+print('ascending: ' + str(sorted(mydict.values())) +'\n' + 'descending: ' + str(sorted(mydict.values(), reverse = True)))
