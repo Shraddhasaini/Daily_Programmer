@@ -9,12 +9,5 @@ mydict0 = {
             'key0' : 0000000,
 }
 
-mydict = {
-            'key1111111' : 1,
-            'key111111' : 11,
-            'key11111' : 111,
-            'key1111' : 1111,
-            'key111' : 11111,
-            'key11' : 111111,
-            'key1' : 1111111,
-}
+for key, value in mydict0.items():
+    print(key, value)
