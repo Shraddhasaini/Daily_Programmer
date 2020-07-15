@@ -4,5 +4,5 @@
 given = 'thisisthegivenstring'
 firstchar = given[0]
 for i in range (1,len(given)):
-    i += 1
+    firstchar 
     print(i)
