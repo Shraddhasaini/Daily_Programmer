@@ -2,7 +2,4 @@
 #where all occurrences of its first char have been changed to
 #'$', except the first char itself.
 given = 'thisisthegivenstring'
-firstchar = given[0]
-for i in range (1,len(given)):
-    firstchar 
-    print(i)
+print(given[0] + given.replace(given[0],'$')[1:])
