@@ -2,4 +2,5 @@
 literals = ['literals','strings','integer']
 str = 'This sentence contains literals strings'
 for i in literals:
-    print(i)
+    if i in str: print(i + ': True')
+    else: print(i + ': False')
